@@ -41,10 +41,8 @@ public class CongratScript : MonoBehaviour
             if (CurrentText >= TextToDisplay.Count)
             {
                 CurrentText = 0;
-
-
-                Text.text = TextToDisplay[CurrentText];
             }
+            Text.text = TextToDisplay[CurrentText];
         }
     }
 }
